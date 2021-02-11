@@ -42,18 +42,20 @@ h1 {
   transform: translateX(0);
 }
 
-.box h2 {
-  font-size: px;
-}
-}
-img {
-  position: realative;
-  height: 200px;
-  width: 250px !important;
+.box h2,
+h4 {
+  font-size: 1.25rem;
 }
 
-li .card {
-  diplay:flex;
-  grow:1;
-  height: 200px;
-  width: 250px !important;
+.card-img-top {
+  height: auto;
+  width: 100% !important;
+}
+
+li .card-body {
+  align-content: flex-end;
+}
+
+a {
+  width: 150px;
+}
