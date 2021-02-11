@@ -61,8 +61,12 @@ a {
 }
 
 @media only screen and (max-width: 500px) {
+  h1 {
+    text-align: center;
+  }
   body {
     background-color: slategray;
+    overflow-x: hidden;
   }
   .box {
     background-color: steelblue;
@@ -70,6 +74,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+
     width: 350px;
     height: 200px;
     margin: 15px;
